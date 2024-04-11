@@ -24,7 +24,6 @@ class MainApp extends StatelessWidget {
             'Hello world',
             style: TextStyle(fontSize: 30),
           ),
-
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
