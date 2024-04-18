@@ -1,42 +1,64 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
 
 void main() {
-  runApp(const MainApp());
+  runApp( MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+   MainApp({super.key});
+  TextEditingController passController = TextEditingController() ;
+  TextEditingController userController = TextEditingController() ;
+
+  
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-           'Bienvenidos',
-           style: TextStyle(fontSize: 38),
-          ),
-          SizedBox(height: 27),
-          Text(
-            'Hello world',
-            style: TextStyle(fontSize: 30),
-          ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        body: Column (mainAxisAlignment: MainAxisAlignment.center,
+          
           children: [
-            Text('Usuario:',
-            style: TextStyle(fontSize: 25, color: Colors.blue)
             
-            )
-          ],
-        ) 
-        ],
-        ),
+             TextField(
+              controller: userController,
+              decoration: const InputDecoration(
+                hintText: 'Username',
+                icon: Icon(Icons.person_2_outlined),
+             ),
+            ),
+
+             TextField(
+              controller: passController,
+              decoration: const InputDecoration(
+                hintText: 'Password',
+                icon: Icon(Icons.lock_clock_outlined),
+              ),
+              obscureText: true,
+            ),
+
+             ElevatedButton(
+              onPressed: (){
+                if ((userController.text == "Ale") && (passController.text == "meca2024") ){
+                  print("Inicio de sesión exitoso");
+      
+                }
+                else{
+                  print("Inicio de sesión fallido");
+                }
+                }, 
+              
+              child: const Text('Login'), 
+
+            ),
+
+            
+        
+        
+        ],),
       ),
-    ),
-  );
+    );
   }
 }
