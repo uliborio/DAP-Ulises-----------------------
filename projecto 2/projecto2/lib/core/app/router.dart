@@ -7,10 +7,13 @@ final appRouter = GoRouter(
   routes: [
   GoRoute(
     path: '/login',
-    builder: ((context, state) => LoginScreen())
+    builder: ((context, state) => const LoginScreen())
   ),
   GoRoute(
-    path: '/home',
-    builder: ((context, state) => HomeScreen())
-  ),
+    path: '/home/:usuario',
+    builder: (context, state) {
+        final usuario = state.pathParameters['usuario'] as String; // Obtén el valor del parámetro de la ruta
+        return HomeScreen(usuario: usuario); // Pasa el valor del usuario a la página de inicio
+      }
+    )
 ]);
