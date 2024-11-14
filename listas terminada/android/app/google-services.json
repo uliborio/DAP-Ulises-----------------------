@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "144337227812",
+      "project_id": "tp-dap-69867",
+      "storage_bucket": "tp-dap-69867.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:144337227812:android:d1012e075c3e04746c48b1",
+          "android_client_info": {
+            "package_name": "com.example.myapp"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCFV7ixFguj9LPuxFulUDi1xYMsJmHbZjc"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
