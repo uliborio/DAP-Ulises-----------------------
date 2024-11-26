@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450735224258",
+    "project_id": "dap-ulises-borio",
+    "storage_bucket": "dap-ulises-borio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450735224258:android:00d64ae3df544d9c13125b",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLn7teLfi33eL_IotwhvWoGwNmgFQgaHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450735224258:android:5153eb18e1909ee613125b",
+        "android_client_info": {
+          "package_name": "com.proyectodap.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLn7teLfi33eL_IotwhvWoGwNmgFQgaHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
