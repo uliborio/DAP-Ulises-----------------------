@@ -33,11 +33,11 @@ Future<void> fetchUsersFromFirestore() async {
 */
 /*
 List usuarios = [
-  User(email: "SantiDP", password: "Pass1"),
-  User(email: "JuanCruz", password: "Pass2"),
-  User(email: "Feli", password: "Pass3"),
-  User(email: "SantiVidal", password: "Pass4"),
-  User(email: "Facundo", password: "Pass5")
+  User(email: "leanamzel", password: "leanamzel"),
+  User(email: "luquizayat", password: "luquizayat"),
+  User(email: "ramilowden", password: "Pass3"),
+  User(email: "santidpa", password: "santidpa"),
+  User(email: "uliborio", password: "uliborio")
 ];
 */
 
